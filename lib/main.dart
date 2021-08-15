@@ -16,8 +16,7 @@ class UnitConverterApp extends StatelessWidget {
               bodyColor: Colors.black,
               displayColor: Colors.grey[600],
             ),
-        primaryColor: Colors.grey[500],
-        textSelectionHandleColor: Colors.green[500],
+        primaryColor: Colors.grey[500], textSelectionTheme: TextSelectionThemeData(selectionHandleColor: Colors.green[500]),
       ),
       home: CategoryRoute(),
     );

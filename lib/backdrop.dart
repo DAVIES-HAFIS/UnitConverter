@@ -42,7 +42,7 @@ class _BackdropPanel extends StatelessWidget {
               padding: EdgeInsetsDirectional.only(start: 16.0),
               alignment: AlignmentDirectional.centerStart,
               child: DefaultTextStyle(
-                style: Theme.of(context).textTheme.subhead,
+                style: Theme.of(context).textTheme.subtitle1,
                 child: title,
               ),
             ),
@@ -74,7 +74,7 @@ class _BackdropTitle extends AnimatedWidget {
   Widget build(BuildContext context) {
     final Animation<double> animation = this.listenable;
     return DefaultTextStyle(
-      style: Theme.of(context).primaryTextTheme.title,
+      style: Theme.of(context).primaryTextTheme.headline6,
       softWrap: false,
       overflow: TextOverflow.ellipsis,
       child: Stack(
